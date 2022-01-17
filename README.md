@@ -1,9 +1,18 @@
-# A starter webpack project for React
+Book Exchange 
 
-This is a starter project that uses webpack to transpile and bundle ES6 React code. To use, consider these steps:
+Manage a Book Trading Club
 
-* Click the use template button above and follow the instructions
+My take on the freecodecamp project using react with redux and knex sqlite3 : 
+https://www.freecodecamp.org/learn/coding-interview-prep/take-home-projects/manage-a-book-trading-club
 
-To start the development server with a watcher that rebuilds your code, run `npm run dev`. The assets built by webpack are placed in `server/public`. This folder is defined as a static folder in an Express.js server.
+Objective: Build a Replit app that is functionally similar to this: https://manage-a-book-trading-club.freecodecamp.rocks/.
 
-Additional components should be placed in `client/components`.
+Fulfill the below user stories. Use whichever libraries or APIs you need. Give it your own personal style.
+
+User Story: I can view all books posted by every user.
+
+User Story: I can add a new book.
+
+User Story: I can update my settings to store my full name, city, and state.
+
+User Story: I can propose a trade and wait for the other user to accept the trade.
