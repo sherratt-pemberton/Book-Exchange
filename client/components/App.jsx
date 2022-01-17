@@ -1,15 +1,24 @@
 import React, { useState } from 'react'
+import { Link, Outlet } from 'react-router-dom'
 
-const App = () => {
-  const [count, setCount] = useState(0)
-
+function App () {
   return (
     <>
-      {count}
-      <h1>Hello World</h1>
-      <button onClick={() => setCount(count + 1)}>Click</button>
+      <h1>Book Echange</h1>
+
+      <nav>
+         <Link to ="/books">Books</Link>
+         <Link to ="/requests">Requests</Link>
+         <Link to ="/trades">Trades</Link>
+         <Link to ="/users">Users</Link>
+      </nav>
+      <nav>
+         <Link to ="/login">Login</Link>
+      </nav>
+      <Outlet />
     </>
   )
+
 }
 
 export default App
