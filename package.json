@@ -1,5 +1,5 @@
 {
-  "name": "Book Exchange",
+  "name": "book_exchange",
   "version": "0.2.3",
   "description": "An app that allows kiwis to trade books",
   "repository": {
@@ -45,7 +45,7 @@
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "@babel/core": "7.13.1",
